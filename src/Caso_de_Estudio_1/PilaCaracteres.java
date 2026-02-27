@@ -9,6 +9,7 @@ public class PilaCaracteres {
     // -- Métodos --
 
     // Constructor
+    // Se utiliza una pila dinámica, debido a que una expresión puede tener una longitud indeterminada.
     public PilaCaracteres() {
         pilaCaracteres = new ArrayList<>();
     }
